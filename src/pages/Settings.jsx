@@ -1,4 +1,4 @@
-const Settings = () => {
+const SettingsPage = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold">Settings</h1>
@@ -10,4 +10,4 @@ const Settings = () => {
   );
 };
 
-export default Settings;
+export default SettingsPage;
