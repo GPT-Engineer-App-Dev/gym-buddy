@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Home, Dumbbell, Chart, Gear } from "lucide-react";
+import { Home, Dumbbell, BarChart, Gear } from "lucide-react"; // Corrected import
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Layout from "./layouts/sidebar"; // Use the sidebar layout
 import Index from "./pages/Index.jsx";
@@ -26,7 +26,7 @@ export const navItems = [
   {
     title: "Progress",
     to: "/progress",
-    icon: <Chart className="h-4 w-4" />,
+    icon: <BarChart className="h-4 w-4" />, // Corrected icon
   },
   {
     title: "Settings",
